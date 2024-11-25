@@ -281,8 +281,6 @@ class Game(tk.Frame):
         if self.score > high_score:  # Jika skor pemain lebih tinggi
             with open("highscore.txt", "w") as file:  # Menyimpan skor baru
                 file.write(str(self.score))
-
-
 # Bagian utama program
 if __name__ == '__main__':
     root = tk.Tk()  # Membuat jendela utama tkinter
