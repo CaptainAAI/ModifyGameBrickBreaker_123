@@ -286,6 +286,6 @@ class Game(tk.Frame):
 # Bagian utama program
 if __name__ == '__main__':
     root = tk.Tk()  # Membuat jendela utama tkinter
-    root.title('Break Those Bricks!')  # Memberi judul jendela
+    root.title('Break Those Bricks!, Halo Lord AAI')  # Memberi judul jendela
     game = Game(root)  # Membuat instance permainan
     game.mainloop()  # Menjalankan loop utama tkinter
